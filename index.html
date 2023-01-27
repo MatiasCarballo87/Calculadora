@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@400;600&family=Zen+Kaku+Gothic+Antique:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Calculadora/css/styles.css">
+    <title>CalculadoraJS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="v-previo"></div>
+                <div id="v-actual"></div>
+            </div>
+            <button id="reset" class="reset" >C</button>
+            <button id="borrar" class="borrar" >&larr;</button>
+            <button class="operador" value="porcentaje">%</button>
+            <button class="operador" value="dividir">/</button> 
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">x</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button id="row-2" class="operador" value="sumar">+</button>
+            <button class="numero">.</button>
+            <button class="numero">0</button>
+            <button id="igual" class="operador" value="igual">=</button>
+        </div>
+    </div>  
+    <script src="./JS/Display.js"></script>
+    <script src="./JS/Calculadora.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
